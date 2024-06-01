@@ -1,0 +1,78 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: whitesmoke; /* Background color for the header */
+  height: 100px; /* Height of the header */
+  padding: 0 20px;
+}
+
+.header_left, .header_middle, .header_right {
+  height: 60%;
+  display: flex;
+  align-items: center;
+  padding: 0 5px;
+}
+
+.header_left {
+  width: 30%;
+  background-color: white; /* Background color for the left section */
+  justify-content: flex-start;
+}
+
+.imz {
+  width: 50px; /* Set the desired width */
+  height: auto; /* Maintain the aspect ratio */
+}
+
+.header_search {
+  width: 60%;
+  height: 40px;
+  background-color: gainsboro;
+  border-radius: 20px;
+  padding: 0 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 10px;
+}
+
+.header_middle {
+  width: 25%;
+  background-color: white; /* Background color for the middle section */
+  justify-content: space-around;
+
+  
+}
+
+.header_right {
+  padding: 0 20px;
+  width: 30%;
+  background-color: white; /* Background color for the right section */
+  justify-content: space-between;
+}
+
+.header_options {
+  color: gray; /* Default color */
+  padding: 5px 20px;
+  cursor: pointer;
+}
+.active {
+  color: #2381fa !important;
+}
+
+.header_options:hover {
+
+  border-radius: 15 px;
+  background-color: whitesmoke;
+  color: #2381fa; /* Hover color */
+}
+
+.header_info {
+  display: flex;
+  align-items: center;
+}
+
+.header_info h4 {
+  margin-left: 10px;
+}
