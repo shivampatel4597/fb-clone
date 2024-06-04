@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: whitesmoke; /* Background color for the header */
+  background-color: white; /* Background color for the header */
   height: 100px; /* Height of the header */
   padding: 0 20px;
 }

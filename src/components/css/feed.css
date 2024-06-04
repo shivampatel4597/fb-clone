@@ -1,0 +1,9 @@
+.feed{
+    /* border: 2px solid black; */
+    flex: 1;
+    padding: 30px 90px;
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin-top: 40px;
+}

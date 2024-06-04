@@ -1,3 +1,6 @@
-.Sidebarrow{
-    background-color: green;
+.sidebar{
+    margin-top: 20px;
+    flex: 0.33;
+    position: sticky;
+    margin-top: 0;
 }
